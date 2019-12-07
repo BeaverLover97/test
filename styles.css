@@ -1,0 +1,13 @@
+svg{
+  border: 5px solid red;
+  pointer-events: none;
+}
+
+#slider-value
+{
+color: white;
+}
+
+img{
+  pointer-events: none;
+}

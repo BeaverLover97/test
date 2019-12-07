@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+<canvas id="canvas" width="300" height="300" ></canvas>
+  <svg width = "1300" height = "700" style="z-index: 1; position: absolute; top: 0px; left: 0px;">
+    <style>
+      .small { font: italic 13px sans-serif; }
+      .heavy { font: bold 30px sans-serif; }
+
+      /* Note that the color of the text is set with the    *
+       * fill property, the color property is for HTML only */
+      .Rrrrr { font: italic 40px serif; fill: blue; }
+    </style>
+
+  </svg>
+
+
+<img src="cooking_pot_inner.png" alt="Italian Trulli" style="z-index:-1; position: absolute; top: 200px; left: 40px; width:35%;">
+<img src="cooking_pot.png" alt="Italian Trulli" style="z-index:0; position: absolute; top: 200px; left: 40px; width:35%">
+
+
+<img src="https://italoamericano.org/sites/default/files/styles/crop_show/public/media/main/boiardi2.jpg?itok=2e12-R1d" alt="Italian Trulli" style="z-index:-1; position: absolute; top: 400px; left: 800px; width:20%">
+
+<button type="button" onclick="add_fillet()" style="z-index:1; position: absolute; top: 500px; left: 1050px;">Fillet</button>
+
+<button type="button" onclick="add_simmer()" style="z-index:1; position: absolute; top: 530px; left: 1050px;">Simmer</button>
+
+<button type="button" onclick="add_julienne()" style="z-index:1; position: absolute; top: 560px; left: 1050px;">Julienne</button>
+
+</body>
+<script src="matter.min.js" type="text/javascript"></script>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<script src="script.js" type="text/javascript"></script>
